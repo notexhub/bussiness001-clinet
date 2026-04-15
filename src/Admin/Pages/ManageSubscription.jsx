@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { toast } from 'react-hot-toast';
+import { motion } from 'framer-motion';
+
 import {
     Loader2,
     AlertTriangle,

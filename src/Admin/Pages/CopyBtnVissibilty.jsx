@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import api from '@/api/axios';
-import { Eye, EyeOff, RefreshCw, CheckCircle, XCircle, Loader2 } from "lucide-react";
+import { motion } from 'framer-motion';
+import { Eye, EyeOff, RefreshCw, CheckCircle, XCircle, Loader2, AlertCircle } from "lucide-react";
 
 const CopyBtnVisibility = () => {
     const [loading, setLoading] = useState(false);

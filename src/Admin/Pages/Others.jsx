@@ -1,7 +1,7 @@
 import React from 'react';
 import CouponSells from './CouponSells';
 import CopyBtnVissibilty from './CopyBtnVissibilty';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 
 const Others = () => {
     const [activeTab, setActiveTab] = React.useState(0);

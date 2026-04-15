@@ -26,20 +26,20 @@ import ManageCookiesVideo from '../Component/ManageCockiesVideo';
 
 const ManagementAll = () => {
     const allTabs = [
-        { name: "Registry Ops", icon: ListPlus },
-        { name: "System Control", icon: Settings },
-        { name: "Vector Injection", icon: ListPlus },
-        { name: "Secure Cache", icon: Settings },
-        { name: "Module Forge", icon: ListPlus },
-        { name: "Fleet Control", icon: Settings },
-        { name: "Sector Config", icon: ListPlus },
-        { name: "Grid Mapping", icon: Settings },
-        { name: "Token Mint", icon: ListPlus },
-        { name: "Audit Station", icon: Settings },
-        { name: "Auth Feed", icon: Video },
-        { name: "Signal Monitor", icon: Video },
-        { name: "Cache Stream", icon: Video },
-        { name: "Stream Audit", icon: Video },
+        { name: "Add Login Credentials", icon: ListPlus },
+        { name: "Manage Login Credentials", icon: Settings },
+        { name: "Add Cookies", icon: ListPlus },
+        { name: "Manage Cookies", icon: Settings },
+        { name: "Create New Subscription", icon: ListPlus },
+        { name: "ManageSubscriptions", icon: Settings },
+        { name: "Manage Subscription Categories", icon: ListPlus },
+        { name: "Manage Categories", icon: Settings },
+        { name: "Create New Coupon", icon: ListPlus },
+        { name: "Manage Coupons", icon: Settings },
+        { name: "Add Login Video", icon: Video },
+        { name: "Manage Credential Videos", icon: Video },
+        { name: "Add Cookies Video", icon: Video },
+        { name: "Manage Cookies Consent Videos", icon: Video },
     ];
 
     const [activeTab, setActiveTab] = useState(0);
