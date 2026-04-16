@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { checkAuth } from "@/store/slices/authSlice";
 import { Routes, Route } from "react-router-dom";
-import MainLayout from "@/layouts/MainLayout";
+import MainLayout from "@/Layouts/MainLayout";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import NotFound from "@/pages/NotFound";
