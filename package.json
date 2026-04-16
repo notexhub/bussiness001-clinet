@@ -23,7 +23,6 @@
     "firebase": "^12.8.0",
     "framer-motion": "^12.26.2",
     "lucide-react": "^0.562.0",
-    "protfolio-server-1.0.2": "file:../Backend",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-hook-form": "^7.71.1",
